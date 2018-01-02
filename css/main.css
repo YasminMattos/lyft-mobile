@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.preload-view, .bg-img {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+ /* Estilos del preload */
+.preload-view {
+  background: linear-gradient(to bottom right, #530060, #d40985);
+}
+
+.logo {
+  margin: 70% auto;
+  text-align: center;
+  width: 170px;
+}
+
+img {
+  width: 100%;
+}
+
+/* Estilos de lyft */
+.bg-img {
+  background-image: url(../assets/images/car.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-white {
+  margin: 7px auto 50px auto;
+  text-align: center;
+  width: 70px;
+}
+
+.logo-pink {
+  margin: 50% auto;
+  text-align: center;
+  width: 180px;
+}
+
+.btn-default {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 2%;
+  left: 30%;
+  text-align: center;
+
+  /* margin-left: 80px;
+  margin-top: 140px; */
+}
