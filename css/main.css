@@ -48,7 +48,7 @@ img {
   width: 180px;
 }
 
-.btn-default {
+.option {
   background-color: transparent;
   color: #ffffff;
 }
@@ -58,7 +58,12 @@ img {
   bottom: 2%;
   left: 30%;
   text-align: center;
-
-  /* margin-left: 80px;
-  margin-top: 140px; */
 }
+
+.form-1 {
+  padding: 5em 3em;
+}
+/* 
+.input-group {
+  border-collapse: 0px;
+} */
