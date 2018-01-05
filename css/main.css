@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.preload-view, .bg-img {
+.preload-view, .bg-img, .checked-view {
   height: 100%;
   position: fixed;
   top: 0;
@@ -13,13 +13,21 @@
   z-index: 1;
 }
 
+.form {
+  padding: 5em 3em;
+}
+
+.margin {
+  margin: 1em 0;
+}
+
  /* Estilos del preload */
 .preload-view {
   background: linear-gradient(to bottom right, #530060, #d40985);
 }
 
 .logo {
-  margin: 70% auto;
+  margin: 35vh auto;
   text-align: center;
   width: 170px;
 }
@@ -28,7 +36,7 @@ img {
   width: 100%;
 }
 
-/* Estilos de lyft */
+/* Estilos 2da vista */
 .bg-img {
   background-image: url(../assets/images/car.jpg);
   background-position: center;
@@ -43,27 +51,59 @@ img {
 }
 
 .logo-pink {
-  margin: 50% auto;
+  margin: 30vh auto 20vh auto;
   text-align: center;
   width: 180px;
 }
 
-.option {
-  background-color: transparent;
-  color: #ffffff;
+.buttons {
+  margin: 10vh auto 20vh auto;
+  text-align: center;
+  width: 180px;
 }
 
-.buttons {
-  position: fixed;
-  bottom: 2%;
-  left: 30%;
+.button, .anchor {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  color: #ffffff;
+  padding: 9px 7px;
+}
+
+.button:hover, .anchor:hover {
+  background: #ffffff;
+  color: #ec0087;
+  text-decoration: none;
+}
+
+/* Form 1 */
+.display-flags {
+  margin-right: 0;
+}
+
+.title {
   text-align: center;
 }
 
-.form-1 {
-  padding: 5em 3em;
+.title::after {
+  content: "";
+  border: 1.5px solid #5bc0de;
+  display: block;
+  margin-bottom: 1.5em;
+  width: 100%;
 }
-/* 
-.input-group {
-  border-collapse: 0px;
-} */
+
+/* Form 2 */
+.lab {
+  color: #5bc0de;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* last view */
+.checked-view {
+  background-image: url(../assets/images/car2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
