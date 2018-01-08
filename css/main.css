@@ -93,6 +93,12 @@ img {
   width: 100%;
 }
 
+.nav-tabs>li.active>a {
+  color: #5bc0de;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 /* Form 2 */
 .lab {
   color: #5bc0de;
@@ -100,10 +106,20 @@ img {
   font-size: 20px;
 }
 
+.left {
+  float: left;
+  padding-left: 1em;
+}
+
+.pager li>a {
+  background-color: #5bc0de;
+  color: #ffffff;
+}
+
 /* last view */
 .checked-view {
   background-image: url(../assets/images/car2.jpg);
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
